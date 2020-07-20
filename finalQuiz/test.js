@@ -225,6 +225,14 @@ function showResult(min,sec) {
     scoreBoard.style.display = 'grid';
     scoreBoard.style.gridTemplateRows="auto auto auto auto"
     summeryButton.style.display = 'block';
+    if (score<=0) {
+        scoreBoard.style.backgroundColor='#F0B27A';
+        
+    }else if (score>=0 && score<5) {
+        scoreBoard.style.backgroundColor='#F5B041';
+    }else if(score>=5){
+        scoreBoard.style.backgroundColor='#82E0AA';
+    }
     
     scoredisplay.innerHTML = "Your Score is " + score;
 
