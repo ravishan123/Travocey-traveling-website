@@ -1,3 +1,6 @@
+@font-face { font-family: Blindspot; src: url('Blindspot.otf'); } 
+@font-face{font-family:Century Gothic;scr:url('GOTHIC.TTF');}
+
 * {
     box-sizing: border-box;
 }
@@ -6,7 +9,8 @@ body{
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
-     background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-family:Century Gothic;
 }
 
 .main-container {
@@ -40,7 +44,7 @@ body{
     margin-left: 15%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: green;
+    background-color: #007500;
     padding: 15px 30px;
     font-size: 18px;
     cursor: pointer;
@@ -121,7 +125,7 @@ label {
 
 #next-btn {
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #007500;
     /* Green */
     float: right;
     border: none;
@@ -144,7 +148,7 @@ label {
 
 #submit-btn {
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #007500;
     /* Green */
     border: none;
     color: white;
@@ -183,7 +187,7 @@ label {
 #retake{
     
     border-radius: 5px;
-    background-color: #F0633C;
+    background-color: #B5310D;
     /* Green */
     border: none;
     color: white;
@@ -211,7 +215,7 @@ label {
 
 #summery {
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #007500;
     /* Green */
     border: none;
     color: white;
@@ -224,7 +228,6 @@ label {
     cursor: pointer;
     margin: auto;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
 }
 
@@ -259,20 +262,17 @@ label {
 /* Modal Content */
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #E1E1E1;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
     height: 1100px;
     margin: auto;
-    box-shadow: 10px 10px 10px 10px #888888;
     border-radius: 10px;
     text-align: center;
 }
 
-
-/* The Close Button */
 
 .close {
     color: #aaaaaa;
@@ -304,13 +304,16 @@ label {
 #timer>div {
     padding: 10px;
     border-radius: 3px;
-    background: #00BF96;
+    background: #ffb400;
+    /* background: #00BF96; */
     display: inline-block;
 }
 
 #timer div>span {
     padding: 15px;
     border-radius: 3px;
-    background: #00816A;
+    font-weight: bold;
+    background: #DFAE58;
+    /* background: #00816A; */
     display: inline-block;
 }

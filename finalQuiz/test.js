@@ -199,10 +199,10 @@ function checkAnswer(answer) {
 
 //reset function
 function reset() {
-    answer01.style.backgroundColor = 'skyblue';
-    answer02.style.backgroundColor = 'skyblue';
-    answer03.style.backgroundColor = 'skyblue';
-    answer04.style.backgroundColor = 'skyblue';
+    answer01.style.backgroundColor = '#21618C ';
+    answer02.style.backgroundColor = '#21618C ';
+    answer03.style.backgroundColor = '#21618C ';
+    answer04.style.backgroundColor = '#21618C ';
 
 
     answer01.disabled = false;
