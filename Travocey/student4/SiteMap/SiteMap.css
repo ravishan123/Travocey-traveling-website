@@ -1,0 +1,153 @@
+@font-face { font-family: Blindspot; src: url('Blindspot.otf'); }
+@font-face{font-family:Century Gothic;scr:url('GOTHIC.TTF');}
+                    body{
+                            background-color:  #d9d9d9;
+                            font-family: Century Gothic;
+                            padding: 0;
+                            height: 100%;
+                            margin-top: -25px;
+                            margin-left: 0;
+                            margin-right: 0;
+                          
+                    }
+                    .svgid{
+                      background-color: antiquewhite;
+                    }
+
+                  .header {
+                  font-family: Blindspot;
+                  font-size: large;
+                  color: #ffffff;
+                  padding-left: 90px;
+
+                }
+                .header img{
+                            width:68px;
+                            height:auto;
+                            margin-top: 5px;
+                            
+                          }
+              /*navigation bar*/
+                .box ul li {
+                width:125px;
+                float: right;
+                margin:10px auto;
+                text-align:center;
+                transition:0.4s ease;
+                font-weight:bold;
+                padding-bottom: 50px;
+                }
+              .box {	width:-100px;
+                grid-template-rows: auto,auto;
+              
+              }
+              .box ul li  a {
+                      text-decoration:rgba(240, 152, 10, 0.828);
+                      font-weight:50px;
+                      color: white;
+                      
+              }
+
+              .box ul li:hover{background-color:white;
+                      font-weight:100px;
+                      padding:5px;
+                      opacity:9;
+                      color:black;
+              }
+              .box ul li:hover a{
+                color: black;
+                padding: 5px;
+              }
+              .navimage{
+                background-image: url("sitemap.jpg");
+                min-height:100%;
+                opacity:1;
+                /* padding-top: 1pc; */
+                padding-bottom: 300px;
+                background-attachment:fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+
+              }
+              .title1 {
+                text-align: center;
+                position: absolute;
+                top:20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-size:6vw;
+                letter-spacing: 10px;
+                font-family:Blindspot;  
+            }
+              .cey{
+                padding-top: 7px;
+              }
+              .travo{
+                padding-top: 7px;
+              }
+              .editor{
+                padding-left: 100px;
+                text-align: center;
+                
+              
+              }
+              .editor img{
+                width:120px;
+                height:120px;
+                border-radius:320px;
+
+              }
+                .social-icons {
+                text-align: start;
+                  
+                }  
+                .social-icons li {
+                display:inline-block;
+                list-style-type:none;
+                -webkit-user-select:none;
+                -moz-user-select:none;
+                }
+                .social-icons li a {
+                border-bottom: none;
+                color:hsl(30, 100%, 50%) ;
+                }
+                .social-icons li img {
+                width:25px;
+                height:auto;
+                margin-right: 20px;
+                }
+                .myfex{
+                display: flex;
+                flex-wrap: nowrap;
+                }
+
+                .address{
+                  padding-left: 20px;
+                  color: #777;
+                  font-size: medium;
+                }
+                
+                .catch{text-align: start;
+                padding-left: 100px;
+              
+              }
+              .catch input[type=text] {
+                width:70%;
+                padding-left: 10px;
+              }
+              .catch input[type=submit] {
+                
+                
+                  text-align: center;
+                  border-radius:30px;
+              }
+              .footimg img{
+                width:500px;
+                height:auto;
+              
+              }
+            .footer{
+              background-color: #ffffff;
+            }

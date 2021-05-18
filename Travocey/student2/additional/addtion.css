@@ -1,0 +1,233 @@
+@font-face { font-family: Blindspot; src: url('Blindspot.otf'); }
+/* @font-face { font-family: Blindspot; src: url('Blindspot.otf'); }  */
+@font-face{font-family:Century Gothic;scr:url('GOTHIC.TTF');}
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+  }
+		body{font-family:Century Gothic;
+			color:hsl(30, 100%, 50%);
+			background-color: white;
+			
+			
+			
+		
+		}
+		
+		 
+		.bgimg-3 {
+		  margin-top: -20px;
+		  background-image: url("tra.gif");
+		  height:800px;
+		  width:auto;
+		  position: relative;
+		  opacity:1;
+		  position: relative;
+		  opacity: 1;
+		  background-attachment:fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size:cover;
+		}
+		
+
+
+		/*kk*/
+		.header h2 {
+			font-family: Blindspot;
+			font-size:40px;
+			color: #ffffff;
+			padding-left: 90px;
+	
+		}
+		.header img{
+			width:68px;
+			height:auto;
+			margin-top: 5px;
+		}
+		
+		
+/*details*/
+		.detail{
+		 		height:90px;
+		 		background-color:#3366ff;
+		 		font-size: 15px;
+		 		background-attachment: scroll;
+		 		
+		 		text-align:center;
+		 		opacity:0.6;
+				 }
+/* destination */
+				.destination{
+					padding:20px;
+					width:33%;
+					float:right;
+				
+				}
+				div.gallery {
+					border: 1px solid rgb(255, 125, 3);
+					border-radius: 5px;
+				  }
+				  
+				  div.gallery:hover {
+					border: 1px solid rgb(204, 106, 1);
+					
+					filter: grayscale(100%);
+					transform:scale(1.1) ;
+					transition: ease 1s ;
+				  }
+				  div.gallery img {
+					width: 100%;
+					height: 300px;
+					border-radius: 5px;
+				  }
+				  div.text_img {
+					text-align: center;
+					padding:15px;
+					font-family: Century Gothic;
+				  }
+					
+		
+    	
+   /*travo cey title*/
+    	.title{
+			position: absolute;
+			top: 60%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			  			
+
+		}
+		.title h2 { 
+			display: grid;
+			color:white;
+			font-size:100px;
+			padding: 15px;
+			font-family:Blindspot;
+		}
+		.top{
+			color: #777;
+			background-color:white;
+			text-align:center;
+			padding:50px 50px;
+			text-align: justify;
+			position: relative;
+			
+		}
+		.top h3{text-align:center;
+			position:top;
+		}
+		.top h1{text-align: center;
+			color:hsl(30, 100%, 50%);
+		}
+
+	/*social media icons*/
+		
+		.title1 h4{
+			position: absolute;
+			top: 65%;
+			left:60%;
+			transform: translate(-50%,-50%);
+			display:inline;
+			color:white;
+			font-size:40px;
+			font-family:Simple Monologue DEMO;
+		
+		}
+    	
+			
+		/*navigation bar*/
+
+		.box ul li {
+			width:125px;
+			float: right;
+			margin:10px auto;
+			text-align:center;
+			transition:0.4s ease;
+			font-weight:bold;
+			padding-bottom: 50px;
+       }
+		.box {	width:-100px;
+			grid-template-rows: auto,auto;
+		
+		}
+		.box ul li  a {
+						text-decoration:rgba(240, 152, 10, 0.828);
+						font-weight:50px;
+						color: white;
+						
+		}
+
+		.box ul li:hover{background-color:white;
+						font-weight:100px;
+						padding:5px;
+						opacity:9;
+						color:black;
+		}
+		.box ul li:hover a{
+			color: black;
+			padding: 5px;
+		}
+
+		
+		.social-icons {
+			text-align: start;
+			padding-left: 20px;
+				
+			}  
+		  .social-icons li {
+			display:inline-block;
+			list-style-type:none;
+			-webkit-user-select:none;
+			-moz-user-select:none;
+			}
+		  .social-icons li a {
+			border-bottom: none;
+			color:hsl(30, 100%, 50%) ;
+			}
+		  .social-icons li img {
+			width:25px;
+			height:auto;
+			margin-right: 30px;
+		  }
+		  .myfex{
+			display: flex;
+			flex-wrap: nowrap;
+		  }
+	
+		  .address{
+			  padding-left: 20px;
+			  color: #777;
+			  font-size: medium;
+		  }
+		  
+		  .catch{text-align: start;
+			padding-left: 100px;
+		
+		}
+		 .catch input[type=text] {
+			 width:70%;
+			 padding-left: 10px;
+		 }
+		 .catch input[type=submit] {
+			
+			padding-left: 20px;
+			background-color:hsl(30, 87%, 63%);
+				color:black;
+				text-align: center;
+				border-radius:30px;
+		}
+		.footimg img{
+			width:500px;
+			height:auto;
+		
+	
+	
+		} 
+
+
+	

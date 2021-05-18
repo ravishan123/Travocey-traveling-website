@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>QuizApp</title>
+    <link rel="stylesheet" type="text/css" href="./student3/QuizStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- navigationBar -->
+	  
+<nav>
+    <!-- navigation bar -->
+    <div class="box">
+
+        
+        <ul type="none">
+            
+        
+        
+            <li><a href="">ABOUT US  </a></li>
+            <li><a href="#">SHOP  </a></li>
+            <li><a href="#">SITE MAP </a></li>
+            <li><a href="#">QUIZ </a></li>
+            <li><a href="#">GALLERY  </a></li>
+            <li><a href="#">HOME</a></li>
+        </ul>
+    </div>
+    <div class="header" id="myHeader">
+        <a href="./Home.html"> <img src='./student3/sika.png' />Travo Cey</a>
+      </div>
+
+</nav>
+
+
+
+    <div>
+    <div>
+    <div class="main-container">
+        <div id="left" class='front'>
+            <h1>Quiz</h1>
+            <h3>Know Before Visit</h3>
+            <p>Sri Lanka is one of the most beutiful counties in the world. It is situated in Indian ocen. There are many things you should know beofre visiting this county
+            This Quiz is specially designed to give you and improve your knowlage about Sri Lanka. So when you visit this beautiful county you will feel like 
+            you been visiting here before.</p>
+            <button id="start-btn">Start</button>
+        </div>
+
+        <img src="./student3/giphy (1).gif" id=pic class='front'>
+
+        <div id="timer">
+            <div>
+                <span class="minutes" id="minute"></span>
+                <div class="smalltext">Minutes</div>
+            </div>
+            <div>
+                <span class="seconds" id="second"></span>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+
+        <div class="container" id='container'>
+            <div id='quiz' class="hide">
+                <div id="question">
+                </div>
+                <div id="answers">
+                    <button id="answer01" class="answer" onclick="checkAnswer(1)"></button>
+                    <button id="answer02" class="answer" onclick="checkAnswer(2)"></button>
+                    <button id="answer03" class="answer" onclick="checkAnswer(3)"></button>
+                    <button id="answer04" class="answer" onclick="checkAnswer(4)"></button>
+                </div>
+            </div>
+            <div id='control-btn' class="control">
+                <button id="next-btn" class='submit'>Next</button>
+            </div>
+            <button id="submit-btn">Submit</button>
+            <div id="score-board">
+                <div id="summery-div">
+                    <button id="summery">Summery</button>
+                </div>
+                <div id="score-display">
+                
+                </div>
+                <div id="time">
+                
+                </div>
+                <div id="refresh">
+                    <button id="retake" onclick="window.location.reload();">Retake</button>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+
+                <div class="modal-content" id='board'>
+                    <span class="close">&times;</span>
+                </div>
+
+         </div>
+        </div>
+    </div>
+        <div>
+
+
+
+            <footer>
+                <div>
+                <hr>
+                <ul class="social-icons">
+                    <li><a href="http://www.youtube.com"><img src='./student3/socicon (1).png' /></a></li>
+                    <li><a href="http://www.facebook.com"><img src='./student3/socicon (2).png' /></a></li>
+                    <li><a href="https://www.instagram.com"><img src='./student3/socicon (3).png' /></a></li>
+                    <li><a href="https://twitter.com"><img src='./student3/socicon (4).png' /></a></li>
+                    <li><a href="https://www.pinterest.com"><img src='./student3/socicon (5).png' /> </a></li> 
+                    
+                    <li><a href="#header"> <br><p>   Back to the top  🡅</p></a></li>
+                    
+                </ul>
+                </div>
+    
+    
+                <div class="myfex">
+                <div >
+                    <div class="address"><p> 57,Ramakrishna Rd,<br>colombo 006,<br>Sri lanka<br>Tel   📞 : +94 112 360 212<br>Fax  📠 : +94n115 579 432<br>Email 📧 : travoCey@gmail.com</p></div>
+                </div>
+                <div class="footimg"><img src='./student3/sikafoot.png' /></div>
+                <form>
+                    <div class="catch" ><h3>JOIN WITH US</h3>
+                        
+                    <input class="cont" type="text"   placeholder="your name"><br><br>
+                    <input class="cont" type="text"   placeholder="your E-mail address"><br><br>
+                    <input type="submit" value="Let's Go" >
+                </div>
+                </form>
+                <div></div>
+                
+                <div class="editor">
+                    <a href="./editor.html"><img src='./student3/oshan.jpeg' /></a><h2> Editor</h2>
+    
+                </div>
+            </div>
+                
+            </div>
+            <hr>
+                © 2020 Travo Cey Sri lanka | All Rights Reserved | Terms of use | Privacy Policy 
+                   
+                
+                   
+                </footer> </div>
+
+        <script src="./student3/test.js"></script>
+
+</body>
+
+</html>

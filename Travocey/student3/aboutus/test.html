@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Float four columns side by side */
+        
+        .row {
+            display: grid;
+            grid-template-columns: auto;
+            margin: auto;
+            width: 90%;
+            padding: 10px 10px 10px 10px;
+            margin-bottom: 30px;
+        }
+        /* Remove extra left and right margins, due to padding */
+        
+        .container {
+            margin: auto;
+        }
+        /* Clear floats after the columns */
+        
+        .container:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive columns */
+        
+        @media screen and (max-width: 500px) {
+            .row {
+                width: 90%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+        /* Style the counter cards */
+        
+        .card-left {
+            margin-right: 50px;
+            height: 300px;
+            display: grid;
+            grid-template-columns: 60% 40%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            transition: 1s;
+            border-radius: 10px;
+        }
+        
+        .card-right {
+            margin-left: 50px;
+            height: 300px;
+            display: grid;
+            grid-template-columns: 60% 40%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            transition: 1s;
+            border-radius: 10px;
+        }
+        
+        .card-right:hover {
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1);
+            transform: scale(1.09);
+        }
+        
+        .card-left:hover {
+            -ms-transform: scale(1.1);
+            /* IE 9 */
+            -webkit-transform: scale(1);
+            /* Safari 3-8 */
+            transform: scale(1.09);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Responsive Column Cards</h2>
+    <p>Resize the browser window to see the effect.</p>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="card-left">
+                <img src="student01.jpeg " id="student01 ">
+                <div class="content-right">
+                    <h3>Card 1</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card-right">
+                <div class="content-left">
+                    <h3>Card 2</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                </div>
+                <img src="student01.jpeg " id="student01 ">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card-left">
+                <img src="student01.jpeg " id="student01 ">
+                <div class="contnt-right">
+                    <h3>Card 3</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card-right">
+
+                <div class="content-left">
+                    <h3>Card 4</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                </div>
+                <img src="student01.jpeg " id="student01 ">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
